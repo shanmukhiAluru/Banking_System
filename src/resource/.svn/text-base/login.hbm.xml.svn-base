@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="bean.login" table="userStore_group2">
+		<id name="username">
+			<generator class="assigned"></generator>
+		</id>
+	
+		
+		<property name="password"></property>
+		<property name="role"></property>
+
+   <!--  <one-to-one name="retailer" class="bean.Retailer"></one-to-one> -->
+   <!-- <one-to-one name="customerName" class="bean.Customer"></one-to-one>  -->
+	</class>
+
+</hibernate-mapping>

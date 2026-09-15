@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="bean.CustomerStatus" table="CustomerStatusGroup2">
+<id name="custId" column="custId">
+<generator class="assigned">
+
+</generator>
+</id>
+
+<property name="ssnId" column="ssnId" type="int"></property>
+<property name="status" column="status" type="string"></property>
+<property name="message" column="message" type="string"></property>
+<property name="lastUpdate" column="lastUpdate" type="string"></property>
+	
+
+</class>
+
+</hibernate-mapping>

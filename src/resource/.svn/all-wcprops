@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TVM1617/!svn/ver/36549/TVM59/TJA394A/trunk/Casestudy/Banking%20System/src/resource
+END
+Account.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TVM1617/!svn/ver/36549/TVM59/TJA394A/trunk/Casestudy/Banking%20System/src/resource/Account.hbm.xml
+END
+AccountStatus.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TVM1617/!svn/ver/36420/TVM59/TJA394A/trunk/Casestudy/Banking%20System/src/resource/AccountStatus.hbm.xml
+END
+Customer.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TVM1617/!svn/ver/36411/TVM59/TJA394A/trunk/Casestudy/Banking%20System/src/resource/Customer.hbm.xml
+END
+CustomerStatus.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TVM1617/!svn/ver/36420/TVM59/TJA394A/trunk/Casestudy/Banking%20System/src/resource/CustomerStatus.hbm.xml
+END
+login.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TVM1617/!svn/ver/34611/TVM59/TJA394A/trunk/Casestudy/Banking%20System/src/resource/login.hbm.xml
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TVM1617/!svn/ver/36413/TVM59/TJA394A/trunk/Casestudy/Banking%20System/src/resource/hibernate.cfg.xml
+END

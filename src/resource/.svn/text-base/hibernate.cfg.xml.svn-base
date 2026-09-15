@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+<session-factory>
+ 
+<!-- Related to the connection START -->
+<property name="connection.driver_class">oracle.jdbc.driver.OracleDriver
+</property>
+<property name="connection.url">jdbc:oracle:thin:@intvmoradb04:1521:ORAJAVADB</property>
+<property name="connection.user">TVM1617_TVM59_TJA394_DEV</property>
+<property name="connection.password">tcstvm59</property>
+<!-- Related to the connection END -->
+ 
+<!-- Related to hibernate properties START -->
+<property name="show_sql">true</property>  <!-- Enable the logging of all the generated SQL statements to the console -->
+<property name="dialect">org.hibernate.dialect.OracleDialect</property> <!-- This property makes Hibernate generate the appropriate SQL for the chosen database. -->
+
+<!-- 
+hbm2ddl.auto Create :
+If the value is create then hibernate first drops the existing table, then creates a new table and then executes operation on newly created table.
+
+hbm2ddl.auto Validate :
+If the value is validate then hibernate only validates whether the table and columns are exist or not. If the table doesn’t exist then hibernate throws an exception. Validate is the default value for hbm2ddl.auto.
+
+hbm2ddl.auto update :
+If the value is update then hibernate checks for the table and columns. If table doesn’t exist then it creates a new table and if a column doesn’t exist it creates new column for it.
+
+hbm2ddl.auto create-drop :
+If the value is create-drop then hibernate first checks for a table and do the necessary operations and finally drops the table after all the operations are completed.
+The value “create-drop” is given for unit testing the hibernate code.
+
+ -->
+
+
+<property name="hbm2ddl.auto">update</property>
+<!-- Related to hibernate properties END -->
+ 
+<!-- Related to mapping START -->
+<mapping resource="resource/Customer.hbm.xml" />
+<mapping resource="resource/Account.hbm.xml" />
+<mapping resource="resource/login.hbm.xml" />
+ <mapping resource="resource/AccountStatus.hbm.xml" />
+<mapping resource="resource/CustomerStatus.hbm.xml" />
+<!-- Related to the mapping END -->
+ 
+</session-factory>
+</hibernate-configuration>
